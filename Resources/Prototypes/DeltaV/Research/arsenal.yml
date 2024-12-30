@@ -29,19 +29,6 @@
   - BorgModuleSecurityChase # DeltaV SecBorg research
 
 - type: technology
-  id: EnergyGunsAdvanced
-  name: research-technology-energy-gun-advance
-  icon:
-    sprite: DeltaV/Objects/Weapons/Guns/Battery/energygun_carbine.rsi
-    state: icon
-  discipline: Arsenal
-  tier: 2
-  cost: 12500
-  recipeUnlocks:
-  - WeaponEnergyGunPistol
-  - WeaponGunLaserCarbineAutomatic
-
-- type: technology
   id: RobustMelee
   name: research-technology-robust-melee
   icon:
@@ -52,6 +39,18 @@
   cost: 12500
   recipeUnlocks:
   - AdvancedTruncheon
+
+- type: technology
+  id: IncendiaryLaserWeapons
+  name: research-technology-incendiary-laser-weapons
+  icon:
+    sprite: DeltaV/Objects/Weapons/Guns/Battery/immolator.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - WeaponImmolator
 
 - type: technology
   id: IonizedCryogenicEmissionEquiplment
