@@ -389,6 +389,14 @@
   - type: Pda
     id: QuartermasterIDCard
     state: pda-qm
+    # Begin DeltaV changes
+    penSlot:
+      startingItem: PenLO
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+    #End DeltaV changes
   - type: PdaBorderColor
     borderColor: "#e39751"
     accentVColor: "#a23e3e"
@@ -544,7 +552,7 @@
     id: CaptainIDCard
     state: pda-captain
     penSlot:
-      startingItem: PenCap
+      startingItem: PenCapNew #DeltaV
       priority: -1
       whitelist:
         tags:
@@ -564,7 +572,7 @@
     id: HoPIDCard
     state: pda-hop
     penSlot:
-      startingItem: PenHop
+      startingItem: PenHopNew #DeltaV
       priority: -1
       whitelist:
         tags:
@@ -584,6 +592,14 @@
   - type: Pda
     id: CEIDCard
     state: pda-ce
+    # Begin DeltaV changes
+    penSlot:
+      startingItem: PenCE
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+    # End DeltaV changes
   - type: PdaBorderColor
     borderColor: "#949137"
     accentHColor: "#447987"
@@ -614,6 +630,14 @@
   - type: Pda
     id: CMOIDCard
     state: pda-cmo
+    # Begin DeltaV changes
+    penSlot:
+      startingItem: PenCMO
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+    # End DeltaV changes
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentHColor: "#447987"
@@ -687,6 +711,14 @@
   - type: Pda
     id: RDIDCard
     state: pda-rd
+    # Begin DeltaV changes
+    penSlot:
+      startingItem: PenMystagogue
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+    # End DeltaV changes
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentHColor: "#447987"
@@ -732,6 +764,14 @@
   - type: Pda
     id: HoSIDCard
     state: pda-hos
+    # Begin DeltaV changes
+    penSlot:
+      startingItem: PenHos
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+    # End DeltaV changes
   - type: PdaBorderColor
     borderColor: "#A32D26"
     accentHColor: "#447987"
@@ -756,6 +796,14 @@
   - type: Pda
     id: WardenIDCard
     state: pda-warden
+   # Begin DeltaV changes
+    penSlot:
+      startingItem: PenWarden
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+    # Begin DeltaV changes
   - type: PdaBorderColor
     borderColor: "#A32D26"
     accentVColor: "#949137"
@@ -1027,6 +1075,14 @@
   - type: Pda
     id: PsychologistIDCard
     state: pda-medical
+    #new delta v content
+    penSlot:
+      startingItem: PenPsych
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+     #end delta v content 
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentVColor: "#447987"

@@ -82,6 +82,12 @@
   - type: Pda
     id: ChiefJusticeIDCard
     state: pda-chiefjustice
+    penSlot:
+      startingItem: PenCJ
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#470823"
   - type: Icon
